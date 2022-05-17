@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#game{
+	height: 90vh;
+	width: 75%;
+	border: solid 1px black;
+	display: block;
+}
+
+.bipka{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	
+}
+
+.score{
+	display: inline-flex;
+	justify-content: center;
+	margin: 5px 40px 5px 40px;
+	padding: 10px;
+	background-color: #eee;
+	border-radius: .5em;
+	width: 20px;
+	height: 20px;
+	font-weight: bold;
+	font-family: "Calibri" sans-serif;
+}
+
+#scoreboard{
+	background-color: #eee;
+	border-radius: .5em;
+	display: inline-flex;
+	margin: 50px;
+	padding: 40px;
+	width: 60%;
+	justify-content: center;
+
+}
+
+#scorelist{
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+}
+
+#scorelist li{
+	margin: 10px;
+}
+
+.uname{
+	display: inline-block;
+	margin: 5px 40px 5px 40px;
+	padding: 10px;
+	background-color: #eee;
+}
+
+#login{
+	width: 90%;
+}
+
+#login input{
+	padding: 5px;
+	border-radius: .1em;
+	margin: 10px 10px;
+	height: 30px;
+	border: 2px black solid;
+}
+
+button{
+	height: 50px;
+	width: auto;
+	width: 100px;
+	background-color: whitesmoke;
+	border: black 2px solid;
+	cursor: pointer;
+	transition: .3s;
+}
+
+button:hover{
+	box-shadow: 1px 1px 5px black;
+	cursor: default;
+}
+
+button:disabled{
+	color: gray;
+
+}
+button:disabled:hover{
+	border: gray 2px solid;
+	box-shadow: 0 0 0 black;
+}
+.base{
+	padding: 100px;
+	display: inline-block;
+	border-bottom: 1px black solid;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom-left-radius: .6em;
+	border-bottom-right-radius: .6em;
+}
